@@ -13,4 +13,5 @@
   --section-title-color: #ff0070;
   --border-color: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
+  --rec-display: flex;
 }
