@@ -201,7 +201,6 @@
 }
 
 .card__text a {
-  color: var(--text-color);
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--accent-color);
 }
@@ -264,6 +263,10 @@
     padding: 20px;
   }
 
+  .main {
+    padding-block-start: 60px;
+  }
+
   .header__rec {
     inset-block-start: 20px;
     inset-inline-end: 29px;
@@ -285,7 +288,8 @@
   }
 
   .header__description {
-    max-inline-size: 491px;
+    max-inline-size: 364px;
+    margin-block-end: 163px;
   }
 
   .section {
@@ -305,9 +309,8 @@
     margin-block-end: 0;
   }
 
-  .what-section .section__content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  .what-section .section__title {
+    max-inline-size: 236px;
   }
 
   .gallery-section .section__title {
@@ -361,6 +364,20 @@
 
   .header__theme-menu-list {
     flex-direction: row;
+  }
+
+  .header__description {
+    max-inline-size: 491px;
+    margin-block-end: 114px;
+  }
+
+  .what-section .section__title {
+    max-inline-size: 315px;
+  }
+
+  .what-section .section__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .why-section,
