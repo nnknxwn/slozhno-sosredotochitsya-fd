@@ -13,10 +13,7 @@
   --section-title-color: #353430;
   --border-color: #353430;
   --bg-image: url(../images/cover-image-light.png);
-}
-
-:root.theme-light .header__rec {
-  display: none;
+  --rec-display: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -29,9 +26,6 @@
     --section-title-color: #353430;
     --border-color: #353430;
     --bg-image: url(../images/cover-image-light.png);
-  }
-
-  .header__rec {
-    display: none;
+    --rec-display: none;
   }
 }
