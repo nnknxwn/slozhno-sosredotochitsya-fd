@@ -263,8 +263,13 @@
     padding: 20px;
   }
 
+  .header__theme-menu {
+    margin-block-start: 114px;
+  }
+
   .main {
     padding-block-start: 60px;
+    gap: 80px;
   }
 
   .header__rec {
@@ -284,7 +289,7 @@
 
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    margin-inline-start: -10px;
+    margin-inline-start: -20px;
   }
 
   .header__description {
@@ -360,6 +365,7 @@
   .header__theme-menu {
     align-self: start;
     justify-self: center;
+    margin-block-start: 0;
   }
 
   .header__theme-menu-list {
